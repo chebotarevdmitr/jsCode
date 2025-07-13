@@ -9,3 +9,4 @@ console.log(myCity.population);
 
 myCity.city = "Moscow";
 console.log(myCity.city);
+console.log(myCity);
