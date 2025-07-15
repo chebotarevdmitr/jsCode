@@ -11,7 +11,10 @@ f();
 const myCity ={
     city: "New York",
 }
-myCity.population = 8000000;
-console.log(myCity); 
-delete myCity.population;
+//myCity["population"] = 8000000;
+//console.log(myCity);
+//myCity["country"] = "USA";
+//console.log(myCity);
+const countryPropertyName = "country";
+myCity[countryPropertyName] = "United States of America";
 console.log(myCity);
