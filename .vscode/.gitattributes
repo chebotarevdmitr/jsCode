@@ -1,0 +1,14 @@
+# Универсальная настройка: LF для переносов строк
+* text=auto eol=lf
+
+# Явная настройка для популярных типов файлов
+*.js    text eol=lf
+*.json  text eol=lf
+*.html  text eol=lf
+*.css   text eol=lf
+*.md    text eol=lf
+
+# Не трогаем бинарные файлы
+*.png   binary
+*.jpg   binary
+*.exe   binary
