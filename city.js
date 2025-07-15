@@ -1,8 +1,9 @@
-const myCity = {
-  city: "San Francisco",}
-  myCity["population"] = 883305;
-myCity["area"] = 121.4; // in square kilometers
-console.log(myCity);
-const countryPproertyName = "country";
-myCity[countryPproertyName] = "USA";
-console.log(myCity);
+const myCity ={city:"New York",
+    info:{isPopular:true,//вложенный объект
+        population:8419600,
+    country:"USA"},
+}
+console.log(myCity.info.country);
+console.log(myCity.info.isPopular) // New York
+delete myCity.info["isPopular"];
+console.log (myCity)
