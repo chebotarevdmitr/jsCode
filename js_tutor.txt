@@ -19,3 +19,13 @@ b = false // присваивание  позже
 
 const c = 10 //создание и присваивание происходит  одновременно 
 с = 20  // TypeError Assignment to constant variable (новое значение присвоить нельзя)
+
+Types of variables // типы переменных 
+const a = 10 // Number (число)
+const b = "abc" //string (строка)
+
+Примитивные типы - string (строка) - boolean (логический) - number (число)
+                - null (присваивается явно )  - undefined (значение не определено)
+                         - symbol (символ)    
+
+  Ссылочный тип  - object (объект)        
