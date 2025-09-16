@@ -1,0 +1,30 @@
+Все переменные объявлять перед их использованием 
+Стараться использовать  const везде где это возможно 
+
+Объект  это набор свойст "ИМЯ: ЗНАЧЕНИЕ"
+
+Объект зто тип значений 
+Объект тип переменных 
+
+const myCity = {      // myCity -> Объект city,popular,country -> свойство 
+   city: "New York",  // "New York", true, "USA" -> значение свойства 
+   popular: true,
+   country: "USA"
+}
+
+const myCity = {       
+   city: "New York",   
+   popular: true,
+   country: "USA"
+}
+
+console.log(myCity.city)     // "New York"
+console.log(myCity.popular)  //true 
+
+const myCity = {
+   city: "New York"
+}
+
+myCity.city = "Las vegas"
+
+console.log(myCity) //{city: "Las vegas"} 
